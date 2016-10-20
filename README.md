@@ -20,7 +20,7 @@ FBHTTPOverUSBClient *client = [[WDClient alloc] initWithDeviceUDID: udid];
 `[client startApp]`
 
 ## 相关连接
-API: 
+API: https://github.com/sixleaves/WDUSBClient/wiki
 
 
 ##更多的用处等待你的探索!!!
