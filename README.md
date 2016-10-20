@@ -6,8 +6,8 @@
 - 基于OC语言, 可供广大iOS开发者方便的实现自动化UI, 提供App稳定性.
 - 非侵入式框架, 无需在项目中嵌入
 
+##Now, the framework only works on usb connection, so simulator doesn't support(只支持真机设备)
 
-Now, the framework only works on usb connection, so simulator doesn't support(只支持真机设备)
 #Create Client(创建客户端)
 ```
 NSString *udid = @"a49bcbd6a9d3b24b8f70b8adde348925a5bfac6e";
