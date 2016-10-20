@@ -1,4 +1,10 @@
 # WDUSBClient
+##Advantage(优势)
+- 更加快速的通信效率, 直接使用socket通信, 而非http.
+- 无需担心设备没有连接上wifi等影响.链路层走的是USB数据线.
+- 基于facebook的WebDriverAgent驱动进行开发.
+- 基于OC语言, 可供广大iOS开发者方便的实现自动化UI, 提供App稳定性.
+
 用于实现UI自动化的OC框架, 非侵入式框架
 
 Now, the framework only works on usb connection, so simulator doesn't support(只支持真机设备)
