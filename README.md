@@ -4,8 +4,8 @@
 - 无需担心设备没有连接上wifi等影响.链路层走的是USB数据线.
 - 基于facebook的WebDriverAgent驱动进行开发.
 - 基于OC语言, 可供广大iOS开发者方便的实现自动化UI, 提供App稳定性.
+- 非侵入式框架, 无需在项目中嵌入
 
-用于实现UI自动化的OC框架, 非侵入式框架
 
 Now, the framework only works on usb connection, so simulator doesn't support(只支持真机设备)
 #Create Client(创建客户端)
@@ -18,4 +18,6 @@ FBHTTPOverUSBClient *client = [[WDClient alloc] initWithDeviceUDID: udid];
 `[client setBundleID: @"com.nd.www.TestAppForIOS"]`
 ###next step, call startApp method(下一步, 调用startApp方法)
 `[client startApp]`
+
+##更多的用处等待你的探索!!!
 
