@@ -8,6 +8,9 @@
 
 ##Now, the framework only works on usb connection, so simulator doesn't support(只支持真机设备)
 
+#将Client文件夹下的东西都拖到你的工程中。引入主头文件
+`#import "WDClient.h"`
+
 #Create Client(创建客户端)
 ```
 NSString *udid = @"a49bcbd6a9d3b24b8f70b8adde348925a5bfac6e";
