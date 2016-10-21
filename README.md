@@ -27,7 +27,7 @@ FBHTTPOverUSBClient *client = [[WDClient alloc] initWithDeviceUDID: udid];
 - WD地址(建议用我的, 我会和facebook那边的框架保持同步, 并会添加新功能, 修复bug):https://github.com/sixleaves/WebDriverAgent
 
 # 交流QQ群
-114577285
+`QQ群: 114577285`
 
 ##更多的用处等待你的探索!!!
 
